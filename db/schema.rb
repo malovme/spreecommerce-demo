@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150911202170) do
+ActiveRecord::Schema.define(version: 20150912063333) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -862,8 +862,8 @@ ActiveRecord::Schema.define(version: 20150911202170) do
 
   create_table "spree_taxons", force: :cascade do |t|
     t.integer  "parent_id"
-    t.integer  "position",          default: 0
-    t.string   "name",                          null: false
+    t.integer  "position",                default: 0
+    t.string   "name",                                null: false
     t.string   "permalink"
     t.integer  "taxonomy_id"
     t.integer  "lft"
@@ -873,12 +873,16 @@ ActiveRecord::Schema.define(version: 20150911202170) do
     t.integer  "icon_file_size"
     t.datetime "icon_updated_at"
     t.text     "description"
-    t.datetime "created_at",                    null: false
-    t.datetime "updated_at",                    null: false
+    t.datetime "created_at",                          null: false
+    t.datetime "updated_at",                          null: false
     t.string   "meta_title"
     t.string   "meta_description"
     t.string   "meta_keywords"
     t.integer  "depth"
+    t.string   "background_file_name"
+    t.string   "background_content_type"
+    t.integer  "background_file_size"
+    t.datetime "background_updated_at"
   end
 
   add_index "spree_taxons", ["parent_id"], name: "index_taxons_on_parent_id", using: :btree
