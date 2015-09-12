@@ -8,5 +8,5 @@
 //= require jquery_ujs
 //= require spree/frontend
 
-//= require_tree .
 //= require spree/frontend/spree_amazon_like_dropdown
+//= require_tree .
