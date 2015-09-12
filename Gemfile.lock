@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/maginfo-team/spree_amazon_like_dropdown.git
+  revision: b0363df732273b4a1b7ed48082a710d81c74b48e
+  specs:
+    spree_amazon_like_dropdown (0.1.0)
+      spree_core (~> 3.0.0)
+
+GIT
   remote: git://github.com/spree/spree_auth_devise.git
   revision: 7b24ad16239367dc15f96a80cc2a954a822cc6af
   branch: 3-0-stable
@@ -344,6 +351,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spree (= 3.0.4)
+  spree_amazon_like_dropdown!
   spree_auth_devise!
   spree_gateway!
   spring
