@@ -1,8 +1,9 @@
 GIT
   remote: git://github.com/fiftin/spree_add_to_cart_ajax.git
-  revision: 22cfac72dd9088e3c6ccbc1983c08c876f779919
+  revision: 130bb7ca3c67b19ddeab2945ff9c780fe4e1067c
   specs:
     spree_add_to_cart_ajax (0.1.0)
+      jquery-form-rails
       spree_core (~> 3.0.0)
 
 GIT
@@ -147,6 +148,8 @@ GEM
     jbuilder (2.3.2)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
+    jquery-form-rails (1.0.1)
+      jquery-rails
     jquery-rails (4.0.5)
       rails-dom-testing (~> 1.0)
       railties (>= 4.2.0)
