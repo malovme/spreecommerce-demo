@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/fiftin/spree_add_to_cart_ajax.git
-  revision: 8bdd91e6c4f10011c72419c29b455ea9516cff76
+  revision: a48ebeae754322e6dd8ed7ea0857e2214bee4f51
   specs:
     spree_add_to_cart_ajax (0.1.1)
       jquery-form-rails
