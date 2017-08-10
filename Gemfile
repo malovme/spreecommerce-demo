@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 
 # ruby '2.2.1'
+gem 'bundler', '1.15.3'
 
 gem 'rails_12factor', group: :production
 
